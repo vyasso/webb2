@@ -1,8 +1,14 @@
 /* Style the header */
 .header {
-    padding: 10px 16px;
-    background: #555;
-    color: #f1f1f1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px 10%;
+}
+
+.nav_links {
+    display: inline-block;
+    list-style: none;
 }
 
 /* Page content */
