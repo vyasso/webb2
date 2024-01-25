@@ -48,5 +48,7 @@ header a.menyer {
     justify-content: center;
  }
 
- .article .h3{
+ .nyheter {
+  color: rgb(0, 0, 0);
+  margin-left: 20px;
  }
