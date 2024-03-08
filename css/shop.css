@@ -143,28 +143,68 @@ header {
 
 /* Inehållet altså merch*/
 
+
 .merch h1 {
     text-align: center;
     font-size: 50px;
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
 .men {
-    margin: 100px 200px 100px;
+    margin: 100px 200px 50px;
     display: flex;
     justify-content: space-between;
 }
 
 .woman {
-    margin: 100px 200px 100px;
+    margin: 50px 200px 100px;
     display: flex;
     justify-content: space-between;
 }
 
 .bild {
-    background-color: grey;
-    padding-bottom: 50px;
+    background-color: rgba(1, 21, 21, 0.3);
+    padding-bottom: 20px;
     border-radius: 10px;
+    text-align: center;
+}
+
+.men .bild h2 {
+    color: blue;
+}
+
+.woman .bild h2 {
+    color: pink;
+}
+
+
+.men .bild h3:hover {
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+
+.woman .bild h3:hover {
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+
+@media (max-width:900px) {
+    .men {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .woman {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bild {
+        width: 300px;
+        margin-bottom: 20px;
+    }
 }
 
 
