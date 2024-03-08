@@ -216,3 +216,10 @@ ul .kok a:hover{
       width: 100%;
   }
 }
+
+/* video */
+
+.video1 {
+    display: flex;
+    justify-content: center;
+}
