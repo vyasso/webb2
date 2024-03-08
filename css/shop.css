@@ -97,7 +97,6 @@ header {
     background: rgba(250, 250, 250, 0.9);
     border-radius: 10px;
     overflow: hidden;
-    transition: height.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
 .dropdown-menu.open {
@@ -142,6 +141,11 @@ header {
     }
 }
 
+/* Inehållet altså merch*/
+
+
+
+
 /* Footer */
 footer {
     display: flex;
@@ -152,6 +156,11 @@ footer {
 }
 
 p {
+    display: flex;
+    justify-content: center;
+}
+
+.kok {
     display: flex;
     justify-content: center;
 }
@@ -168,29 +177,8 @@ p {
     font-size: 22px;
     color: white;
     text-transform: capitalize;
-}
-
-.footer-col h4::before {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: -6px;
-    background-color: white;
-}
-
-.footer-col h4::after {
-    margin: -7px;
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: -6px;
-    background-color: white;
-    height: 2px;
-    width: 100px;
-}
-
-ul .kok:not(:last-child) {
-    margin-bottom: 8px;
+    display: inline-block;
+    text-align: center;
 }
 
 ul .kok a,
@@ -233,10 +221,6 @@ ul .kok a:hover {
         width: 50%;
         margin-bottom: 30px;
         text-align: center;
-    }
-
-    .footer-col h4::before {
-        all: unset;
     }
 }
 
