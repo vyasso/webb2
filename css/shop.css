@@ -10,7 +10,7 @@ body {
     background-color: rgb(220, 220, 220);
     display: flex;
     flex-direction: column;
-    }
+}
 
 li {
     list-style: none;
@@ -145,26 +145,20 @@ header {
 
 
 
-
 /* Footer */
 footer {
     display: flex;
     flex-wrap: wrap;
     margin-top: auto;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: #3f3f3f;
     padding: 60px 10%;
+    border-top: 1px solid;
+    color: #ffffff;
 }
 
-p {
-    display: flex;
-    justify-content: center;
+ul {
+    list-style: none;
 }
-
-.kok {
-    display: flex;
-    justify-content: center;
-}
-
 
 .footer-col {
     width: 25%;
@@ -174,19 +168,20 @@ p {
     position: relative;
     margin-bottom: 30px;
     font-weight: 400;
-    font-size: 22px;
-    color: white;
+    font-size: 30px;
+    color: #ffffff;
     text-transform: capitalize;
-    display: inline-block;
-    text-align: center;
 }
 
-ul .kok a,
-p {
-    display: flex;
-    font-size: 15px;
+ul .kok:not(:last-child) {
+    margin-bottom: 8px;
+}
+
+ul .kok a {
+    display: block;
+    font-size: 19px;
     text-transform: capitalize;
-    color: white;
+    color: #ffffff;
     text-decoration: none;
     transition: 0.4s;
 }
@@ -196,12 +191,12 @@ ul .kok a:hover {
     padding-left: 10px;
 }
 
-.media-links a {
+.links2 a {
     display: inline-block;
     height: 44px;
     width: 44px;
     color: white;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: black;
     margin: 0 8px 8px 0;
     text-align: center;
     line-height: 44px;
@@ -209,16 +204,14 @@ ul .kok a:hover {
     transition: 0.4s;
 }
 
-.media-links a:hover {
-    color: #4d4f55;
+.links2 a:hover {
+    color: white;
     background-color: skyblue;
 }
 
-
-/* RESPONSIVE DESGIN */
 @media(max-width: 740px) {
     .footer-col {
-        width: 50%;
+        width: 100%;
         margin-bottom: 30px;
         text-align: center;
     }
