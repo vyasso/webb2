@@ -3,6 +3,8 @@
     padding: 0;
 }
 
+/* banner */
+
 .container {
     width: 100%;
     height: 100vh;
@@ -22,17 +24,20 @@
 .banner-text{
     padding-top: 100px;
     margin-left: 50px;
+    color: aliceblue;
 }
 
 .banner-text h2{
     letter-spacing: 10px;
     font-weight: bold;
     font-size: 25px;
+    
 }
 
 .banner-text h1{
     margin-left: 5px;
     font-size: 100px;
+    
 }
 #btn{
     width: 130px;
@@ -41,8 +46,9 @@
     background-color:black;
     letter-spacing: 3px;
     margin-left: 50px;
-    color: rgba(225,230,0);
+    color: rgb(255, 255, 255);
     border-radius: 20px;
     border: none;
     cursor: pointer;
 }
+/* banner slut */
