@@ -226,10 +226,12 @@ ul .kok a:hover{
     margin: 20px;
 }
 
-article {
+.lil1{
  display: flex;
  justify-content: space-between;
  margin-bottom: 30px;
+ margin-left: 50px;
+ margin-right: 50px;
 
 }
 
@@ -238,35 +240,47 @@ background-color: rgb(113, 113, 113);
 text-align: center;
 }
 
-article h2 {
+.lil1 h2 {
 color: #000000;
 font-family: Arial;
 border-bottom: solid 2px #000000;
 }
 
-article p {
+.lil1 p {
 color: #000000;
 font-family: Arial;
 font-family: none;
 }
 
 .bilder1{
-    float: left;
+margin-left: 0px;
+margin-right: 50px;
+float: left;
 
 }
 
 .lil {
     background-color: rgb(113, 113, 113);
+    padding-bottom: 60px;
+    font-size: 17px;
+    margin-left: 50px;
+    margin-right: 50px;
+    
 }
 
-.lil ,h3{
+.lil h3{
     color: rgb(255, 255, 255);
     text-align: center ;
+    margin-top: 20px;
 }
+
+
 
 .lil p{
     color: rgb(255, 255, 255);
     text-align: center ;
 }
+
+
 
 
