@@ -219,7 +219,68 @@ ul .kok a:hover{
 
 /* video */
 
-.video1 {
+.video1{
     display: flex;
     justify-content: center;
+    align-items: center;
+    margin: 20px;
 }
+
+.lil1{
+ display: flex;
+ justify-content: space-between;
+ margin-bottom: 30px;
+ margin-left: 50px;
+ margin-right: 50px;
+
+}
+
+.bilder{
+background-color: rgb(113, 113, 113);
+text-align: center;
+}
+
+.lil1 h2 {
+color: #000000;
+font-family: Arial;
+border-bottom: solid 2px #000000;
+}
+
+.lil1 p {
+color: #000000;
+font-family: Arial;
+font-family: none;
+}
+
+.bilder1{
+margin-left: 0px;
+margin-right: 50px;
+float: left;
+
+}
+
+.lil {
+    background-color: rgb(113, 113, 113);
+    padding-bottom: 60px;
+    font-size: 17px;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
+
+.lil h3{
+    color: rgb(255, 255, 255);
+    text-align: center ;
+    margin-top: 20px;
+}
+
+
+
+.lil p{
+    color: rgb(255, 255, 255);
+    text-align: center ;
+}
+
+
+
+
