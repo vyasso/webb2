@@ -143,8 +143,23 @@ header {
 
 /* Inehållet */
 
+section {
+    background-color: black;
+    margin: 30px 200px 80px;
+    padding-bottom: 100px;
+    padding-top: 10px;
+    border-radius: 10px;
+}
 
-
+.podd {
+    border-bottom-left-radius: 10px;
+    background-color: aqua;
+    margin: 0px 10px 0px;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
 
 
 /* Footer */
