@@ -183,13 +183,14 @@ header {
     cursor: pointer;
 }
 
-
 .woman .bild h3:hover {
     padding-left: 10px;
     cursor: pointer;
 }
 
 
+
+/* responsive degsin för shopen */
 @media (max-width:900px) {
     .men {
         flex-direction: column;
