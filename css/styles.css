@@ -226,6 +226,22 @@ ul .kok a:hover{
     margin: 20px;
 }
 
+
+
+@media(max-width: 530px){
+    .video1{
+    display: flex;
+    align-items: center;
+    width: 250px;
+    }
+  }
+
+/* sticky bilder */
+
+.nyheter{
+    padding-left: 10px;
+}
+
 .gallery{
     background-color: #a7a7a7;
     border: 1px solid #000000;
@@ -243,6 +259,7 @@ ul .kok a:hover{
 }
 
 .responsive {
+    margin-bottom: 20px;
     padding: 0 6px;
     float: left;
     width: 25%;
@@ -261,4 +278,33 @@ ul .kok a:hover{
         margin: 6px 0;
         
     }
+}
+
+/* lilla al fadji bilder */
+
+.poddcast{
+    padding-left: 10px;
+}
+
+.boxarna{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.box1{
+    margin-left: 10px;
+    height: 200px;
+    width: 200px;
+}
+
+.box2{
+    margin-right: 10px;
+    height: 200px;
+    width: 550px;
+    background-color: #a7a7a7;
+}
+
+.box2 ,p ,h3{
+    text-align: center;
+    padding: 10px;
 }
