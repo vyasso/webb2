@@ -279,3 +279,20 @@ ul .kok a:hover {
         width: 100%;
     }
 }
+
+
+button {
+    margin-left: 30px;
+    margin-top: 5px;
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border: none;
+    font-size: large;
+}
+
+button:hover {
+    background-color: skyblue;
+}
