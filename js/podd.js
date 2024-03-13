@@ -17,13 +17,13 @@ toggleBotton.onclick = function () {
 function myFunction() {
     var currentColor = document.body.style.backgroundColor;
 
-    if (currentColor === "grey") {
-        document.body.style.backgroundColor = "";
+    if (currentColor === "rgb(100, 100, 100)") {
+        document.body.style.backgroundColor = "rgb(220, 220, 220)";
         document.querySelector('button').textContent = "Light ";
     }
 
     else {
-        document.body.style.backgroundColor = "grey";
+        document.body.style.backgroundColor = "rgb(100, 100, 100)";
         document.querySelector('button').textContent = "Dark ";
     }
 }
