@@ -87,6 +87,7 @@ header {
     font-weight: bold;
     cursor: pointer;
     transition: scale 0.2 ease;
+    background-color: rgb(25, 153, 238);
 }
 
 .button:hover {
