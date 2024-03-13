@@ -218,7 +218,6 @@ footer {
     margin-top: auto;
     background-color: #3f3f3f;
     padding: 60px 10%;
-    border-top: 1px solid;
     color: #ffffff;
 }
 
@@ -234,7 +233,7 @@ ul {
     position: relative;
     margin-bottom: 30px;
     font-weight: 400;
-    font-size: 30px;
+    font-size: 22px;
     color: #ffffff;
     text-transform: capitalize;
 }
@@ -287,4 +286,21 @@ ul .kok a:hover {
     .footer-col {
         width: 100%;
     }
+}
+
+
+button {
+    margin-left: 30px;
+    margin-top: 5px;
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border: none;
+    font-size: large;
+}
+
+button:hover {
+    background-color: skyblue;
 }

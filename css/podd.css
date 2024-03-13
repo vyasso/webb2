@@ -209,7 +209,6 @@ footer {
     margin-top: auto;
     background-color: #3f3f3f;
     padding: 60px 10%;
-    border-top: 1px solid;
     color: #ffffff;
 }
 
@@ -225,7 +224,7 @@ ul {
     position: relative;
     margin-bottom: 30px;
     font-weight: 400;
-    font-size: 30px;
+    font-size: 22px;
     color: #ffffff;
     text-transform: capitalize;
 }
