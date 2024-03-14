@@ -8,10 +8,7 @@
 body {
     height: 100vh;
     background-color: #002333;
-  
-  
-  
-    }
+}
 
 
 .container {
@@ -155,6 +152,7 @@ p {
         height: 100vmax;
     }
 }
+
 /* HEADER */
 
 li {
@@ -243,12 +241,12 @@ header {
     border-radius: 10px;
     overflow: hidden;
 
-    
+
 }
 
 .dropdown-menu.open {
     height: 240px;
-    
+
 }
 
 .dropdown-menu li {
@@ -256,14 +254,14 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
 }
 
 .dropdown-menu .button {
     width: 100%;
     display: flex;
     justify-content: center;
-    
+
 }
 
 
@@ -281,7 +279,7 @@ header {
 
     .dropdown-menu {
         display: block;
-        
+
     }
 }
 
@@ -294,7 +292,7 @@ header {
 
 
 /* Footer */
-footer{
+footer {
     display: flex;
     flex-wrap: wrap;
     margin-top: auto;
@@ -303,44 +301,44 @@ footer{
     border-top: 1px solid;
     margin: 0.9rem 2rem;
     color: #ffffff;
-  }
-  
-  ul{
+}
+
+ul {
     list-style: none;
-  }
-  
-  .footer-col{
+}
+
+.footer-col {
     width: 25%;
-  }
-  
-  .footer-col h4{
+}
+
+.footer-col h4 {
     position: relative;
     margin-bottom: 30px;
     font-weight: 400;
     font-size: 22px;
     color: #ffffff;
     text-transform: capitalize;
-  }
-  
-  ul .kok:not(:last-child){
+}
+
+ul .kok:not(:last-child) {
     margin-bottom: 8px;
-  }
-  
-  ul .kok a{
+}
+
+ul .kok a {
     display: block;
     font-size: 19px;
     text-transform: capitalize;
     color: #ffffff;
     text-decoration: none;
     transition: 0.4s;
-  }
-  
-  ul .kok a:hover{
+}
+
+ul .kok a:hover {
     color: white;
     padding-left: 2px;
-  }
-  
-  .links2 a{
+}
+
+.links2 a {
     display: inline-block;
     height: 44px;
     width: 44px;
@@ -351,22 +349,23 @@ footer{
     line-height: 44px;
     border-radius: 50%;
     transition: 0.4s;
-  }
-  
-  .links2 a:hover{
+}
+
+.links2 a:hover {
     color: #0443ff;
     background-color: white;
-  }
-  
-  @media(max-width: 740px){
-    .footer-col{
+}
+
+@media(max-width: 740px) {
+    .footer-col {
         width: 50%;
         margin-bottom: 30px;
         text-align: center;
-    } }
-  
-  @media(max-width: 555px){
-    .footer-col{
+    }
+}
+
+@media(max-width: 555px) {
+    .footer-col {
         width: 100%;
     }
-  }
+}
