@@ -170,8 +170,8 @@ header {
 }
 
 .button {
-    background-color: #ffffff9a;
-    color: rgb(0, 0, 0);
+    background-color: #000000;
+    color: rgb(255, 255, 255);
     padding: 0.5rem 1rem;
     border: none;
     outline: none;
@@ -183,8 +183,8 @@ header {
 
 .button:hover {
     scale: 1.05;
-    color: rgb(209, 105, 105);
-    background-color: rgb(85, 158, 187);
+    color: rgb(255, 255, 255);
+    background-color: rgb(25, 153, 238);
 }
 
 .button:active {
