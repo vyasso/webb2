@@ -214,7 +214,6 @@ header {
     font-size: 0.8rem;
     font-weight: bold;
     cursor: pointer;
-    transition: scale 0.2 ease;
 }
 
 .button:hover {
