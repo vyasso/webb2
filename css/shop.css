@@ -71,7 +71,6 @@ header {
     font-size: 0.8rem;
     font-weight: bold;
     cursor: pointer;
-    transition: scale 0.2 ease;
 }
 
 .button:hover {
@@ -148,7 +147,7 @@ header {
     text-align: center;
     font-size: 40px;
     margin-top: 30px;
-    font-size: 40px;
+    font-size: 35px;
 }
 
 .men {
