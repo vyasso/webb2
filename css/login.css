@@ -218,7 +218,7 @@ header {
 
 .button:hover {
     scale: 1.05;
-    color: rgb(209, 105, 105);
+    color: rgb(255, 255, 255);
     background-color: skyblue;
 }
 
